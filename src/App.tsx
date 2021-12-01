@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="bg-red-400">
+      <header className="bg-red-300 App-header">
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Fuck <code>src/App.tsx</code> and save to reload.
         </p>
         <a
-          className="App-link"
+          className="App-link text-blue-900"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Fucking linting setup
         </a>
+        <h1 className="text-xxl text-pink-900 font-bold stroke-1 ">
+          CRA + React-router + eslint + prettier + typescript + tailwindCss
+        </h1>
       </header>
     </div>
   );
-}
+};
 
 export default App;
